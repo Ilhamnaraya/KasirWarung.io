@@ -1,0 +1,110 @@
+:root {
+  --c1: #ae9942;
+  --c2: #9d8420;
+  --c3: #7e6a1a;
+  --p1: #ffffff;
+  --p2: #f7f7f7;
+  --p3: #f0f0f0;
+  --m1: #b24e4c;
+  --m2: #a22c29;
+  --m3: #822321;
+  --abu: #9c9d9f;
+  --hitam: #07090f;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 360px;
+  height: 100%;
+  /* border: 1px solid green; */
+  padding: 20px;
+  margin: auto;
+}
+
+.masuk {
+  width: 100%;
+  font-family: Plus Jakarta Sans;
+  color: var(--hitam);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600px;
+  line-height: normal;
+  margin-top: 256px;
+}
+
+.input {
+  margin-top: 20px;
+  display: flex;
+  width: 320px;
+  padding: 12px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1px solid var(--abu);
+}
+
+.input:hover {
+  border: 1px solid var(--c2);
+  outline: none;
+}
+
+.input:active {
+  outline: none;
+}
+
+.input:focus {
+  border: 2px solid var(--c3);
+  outline: none;
+}
+
+.btn-masuk {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  padding: 14px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: var(--c2);
+  border: none;
+  color: var(--p1);
+  /* Paragraf Besar */
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.btn-masuk:hover {
+  background: var(--c3);
+}
+
+.p-masuk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link-masuk {
+  padding: 4px;
+  color: var(--59-d-8420, #9d8420);
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+}
